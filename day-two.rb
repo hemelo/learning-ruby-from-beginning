@@ -1,3 +1,5 @@
+Helpers.puts_title "MORE HASHES"
+
 def get_shakey()
   Hash["William Shakespeare" => Hash[1 => Hash["title" => "The Two Gentlemen of Verona", "year" => 1591 ], 2 => Hash[ "title" => "The Taming of the Shrew", "year" => 1591 ]]]
 end
@@ -15,6 +17,8 @@ end
 print_plays(1560, 1605)
 
 # -----------------------------------------------------------------------------------------------------
+
+Helpers.puts_title "CONDITIONAL"
 
 if 1 < 2
   puts "É verdade: 1 é menor que 2"
@@ -57,6 +61,8 @@ comer_um 'maçã' if fome?(14)
 comer_um 'abacate' if fome?(10)
 
 # -----------------------------------------------------------------------------------------------------
+
+Helpers.puts_title "CLASSES"
 
 class Joke
   attr_accessor :question, :answer, :time, :humor
